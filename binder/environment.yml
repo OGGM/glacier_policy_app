@@ -1,11 +1,11 @@
-name: oggm-simulator
+name: glacier-policy-app
 channels:
   - conda-forge
 dependencies:
   - pip
   - python
   - jupyter
-  - bokeh
+  - bokeh=2.4.3
   - nbserverproxy
   - tornado
   - ipywidgets
@@ -19,15 +19,13 @@ dependencies:
   - xarray
   - pyviz_comms
   - param
-  - holoviews
+  - holoviews=1.15.1
   - jinja2
-  - hvplot
-  - panel
+  - panel=0.14.0
   - parambokeh
   - ipympl
   - seaborn
   - pip:
     - joblib
     - progressbar2
-    - git+https://github.com/OGGM/oggm.git
     - jupyter-panel-proxy
